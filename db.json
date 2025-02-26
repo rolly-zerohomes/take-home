@@ -1,14 +1,50 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { 
+      "id": "1",
+      "profile_id": "abc1",
+      "title": "Post 1" 
+    },
+    { 
+      "id": "2",
+      "profile_id": "abc1",
+      "title": "Post 2" 
+    },
+    { 
+      "id": "3",
+      "profile_id": "abc1",
+      "title": "Post 3" 
+    },
+    { 
+      "id": "4",
+      "profile_id": "abc2",
+      "title": "Post 4" 
+    },
+    { 
+      "id": "5",
+      "profile_id": "abc2",
+      "title": "Post 5" 
+    },
+    { 
+      "id": "6",
+      "profile_id": "abc2",
+      "title": "Post 6" 
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { 
+      "id": "1", 
+      "body": "I love this place!",
+      "post_id": "1" 
+    },
+    {
+      "id": "2",
+      "body": "Electric is the future!",
+      "post_id": "1"
+    }
   ],
   "profile": {
-    "name": "typicode"
+    "id": "abc1"
+    "name": "Zero"
   }
 }
