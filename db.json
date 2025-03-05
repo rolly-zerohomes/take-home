@@ -2,12 +2,14 @@
   "profiles": [
     {
       "id": "abc1",
-      "name": "Zero",
+      "first_name": "Zero",
+      "last_name": "Homes",
       "created_at": "2024-03-01 12:00:00"
     },
     {
       "id": "abc2",
-      "name": "Echo",
+      "first_name": "Echo",
+      "last_name": "Bravo"
       "created_at": "2024-03-02 14:30:00"
     }
   ],
