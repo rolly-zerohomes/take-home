@@ -2,13 +2,12 @@
   "profiles": [
     {
       "id": "abc1",
-      "first_name": "Zero",
-      "last_name": "Homes",
+      "name": "Zero",
       "created_at": "2024-03-01 12:00:00"
     },
     {
       "id": "abc2",
-      "first_name": "Echo",
+      "name": "Echo",
       "created_at": "2024-03-02 14:30:00"
     }
   ],
@@ -17,36 +16,42 @@
       "id": "1",
       "profile_id": "abc1",
       "title": "The Future of AI",
+      "body": "AI is advancing at an exponential rate. With recent breakthroughs in deep learning and neural networks, we're seeing AI applications in everything from healthcare to finance. But what does this mean for the future of work and ethics?",
       "created_at": "2024-03-05 09:15:00"
     },
     { 
       "id": "2",
       "profile_id": "abc1",
       "title": "Space Exploration Advancements",
+      "body": "Private space companies are pushing the boundaries of exploration. SpaceX, Blue Origin, and NASA are all working on next-generation rockets. How soon until humans set foot on Mars?",
       "created_at": "2024-03-06 10:00:00"
     },
     { 
       "id": "3",
       "profile_id": "abc1",
       "title": "The Role of Quantum Computing",
+      "body": "Quantum computing is no longer theoretical. Companies like Google and IBM are demonstrating real-world applications. What impact will quantum supremacy have on cryptography and AI?",
       "created_at": "2024-03-07 11:45:00"
     },
     { 
       "id": "4",
       "profile_id": "abc2",
       "title": "Best Coding Practices in 2025",
+      "body": "Clean code, proper documentation, and efficient algorithms remain essential. But with AI-assisted coding tools, are traditional coding standards still as relevant?",
       "created_at": "2024-03-08 13:20:00"
     },
     { 
       "id": "5",
       "profile_id": "abc2",
       "title": "The Ethics of AI",
+      "body": "As AI takes on bigger roles in decision-making, ethical concerns are growing. How can we ensure AI remains unbiased and serves humanity fairly?",
       "created_at": "2024-03-09 15:10:00"
     },
     { 
       "id": "6",
       "profile_id": "abc2",
       "title": "Breaking Down Web 3.0",
+      "body": "Decentralization, blockchain, and smart contracts are defining Web 3.0. What does this mean for privacy, security, and the future of the internet?",
       "created_at": "2024-03-10 16:40:00"
     }
   ],
